@@ -9,3 +9,5 @@
 # Directories
 .terraform/
 .vagrant/
+
+*.ppk
