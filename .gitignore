@@ -10,4 +10,5 @@
 .terraform/
 .vagrant/
 
+*.lock.hcl
 *.ppk
