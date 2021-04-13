@@ -17,13 +17,13 @@ resource "aws_instance" "web-west" {
         Name = "web-west-instance"
     }
 
-    lifecycle {
+    #lifecycle {
         # create_before_destroy = true
         # prevent_destroy = true
         # ignore_changes = [
         # tags["Name"],  
         # ] (for ignoring manual changes does on AWS or other provider console)
-    }
+    #}
 }
 
 resource "aws_instance" "web" {
