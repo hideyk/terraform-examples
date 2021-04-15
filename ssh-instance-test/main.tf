@@ -29,7 +29,7 @@ resource "aws_security_group" "default-sg" {
 
 resource "aws_instance" "ubuntu" {
     key_name = "hidey-ec2"
-    ami = "ami-05b891753d41ff88f"
+    ami = "ami-01581ffba3821cdf3"
     instance_type = var.my_instance_type
 
     tags = {
